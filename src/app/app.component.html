@@ -3,7 +3,10 @@
     <a [routerLink]="['parent']">Link To Parent </a>
     <hr>
     <a [routerLink]="['/parent/child']">Link To Child </a>
-
+    <hr>
+    <a [routerLink]="['/parent/child1']">Link doesn't exist! - Page Not Found! </a>
+    <hr>
+    <a [routerLink]="['/']">Default route </a>
   </li>
 </ul>
 <button (click)="goToChild()"> Display Child Component</button>
